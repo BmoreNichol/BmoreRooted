@@ -1,10 +1,10 @@
-# Bmore Rooted - Air Spade Services
+# Bmore Rooted - Pneumatic Soil Excavation Services
 
-A professional landing page for Bmore Rooted, providing eco-friendly air spade services in Baltimore County, MD.
+A professional landing page for Bmore Rooted, providing eco-friendly pneumatic soil excavation services in Baltimore County, MD.
 
 ## Overview
 
-Bmore Rooted specializes in non-invasive soil excavation using cutting-edge air spade technology. We serve homeowners, arborists, landscapers, utility companies, and developers throughout Baltimore County and surrounding areas.
+Bmore Rooted specializes in non-invasive soil excavation using cutting-edge pneumatic excavation technology. We serve homeowners, arborists, landscapers, utility companies, and developers throughout Baltimore County and surrounding areas.
 
 ## Services
 
