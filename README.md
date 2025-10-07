@@ -1,28 +1,29 @@
-# Bmore Rooted - Pneumatic Soil Excavation Services
+# Bmore Rooted - Air Excavation & Pneumatic Soil Excavation Services
 
-A professional landing page for Bmore Rooted, providing eco-friendly pneumatic soil excavation services in Baltimore County, MD.
+Professional landing page for Bmore Rooted, providing safe, precise air excavation and pneumatic soil excavation services in Baltimore County, MD.
 
 ## Overview
 
-Bmore Rooted specializes in non-invasive soil excavation using cutting-edge pneumatic excavation technology. We serve homeowners, arborists, landscapers, utility companies, and developers throughout Baltimore County and surrounding areas.
+Bmore Rooted provides professional air excavation services for arboriculture, utility location, and landscape management. Our safe, precise, non-damaging excavation protects tree roots and underground infrastructure. We serve homeowners, arborists, landscapers, utility companies, and developers throughout Baltimore County and surrounding areas.
 
 ## Services
 
-### Arboriculture
-- Root Collar Excavation
-- Radial Trenching
-- Soil Aeration
-- Girdling Root Exposure
-- Tree Root Exposure/Protection
+### Arboriculture Services
+- Root Collar Excavation - Safe, precise excavation for tree health assessment
+- Radial Trenching & Vertical Mulching - Non-damaging channels for root growth
+- Soil Aeration - Air excavation for improved water penetration
+- Girdling Root Exposure - Root-safe digging for tree vitality
+- Tree Root Protection During Construction - Safe excavation and root protection
 
-### Landscaping
-- Soil Decompaction
-- Tree/Shrub Root Fertilization
-- Non-Invasive Sprinkler/Lighting Trenching
+### Landscaping & Utility Services
+- Soil Decompaction - Air excavation for improved drainage
+- Deep Root Fertilization - Precise excavation for optimal tree health
+- Irrigation & Lighting Installation - Safe trenching with zero root damage
+- Utility Location & Line Exposure - Underground infrastructure protection
 
-### Maintenance
-- Annual Soil Amendment
-- Mulch Bed Reset
+### Maintenance Services
+- Annual Soil Amendment - Yearly soil enrichment
+- Mulch Bed Reset - Landscape bed refreshing
 
 ## Features
 
