@@ -1,0 +1,89 @@
+# Netlify Configuration for Bmore Rooted
+
+# Build Settings
+[build]
+  # Publish directory (root directory for static site)
+  publish = "."
+
+  # Command to run before deploying (if using build tools)
+  # command = "npm run build"
+
+# Redirect Rules
+[[redirects]]
+  # Redirect all 404s to custom 404 page
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Headers for Performance and Security
+[[headers]]
+  # Apply to all pages
+  for = "/*"
+  [headers.values]
+    # Security Headers
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Permissions Policy (formerly Feature-Policy)
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  # Cache static assets for 1 year
+  for = "/styles.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  # Cache JavaScript for 1 year
+  for = "/script.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  # Cache images for 1 year
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  # Cache service worker (if added later) for shorter time
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  # HTML files - no cache (or short cache)
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Form Processing
+[build.processing]
+  skip_processing = false
+
+# Asset Optimization
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.images]
+  compress = true
+
+# Environment Variables (example - set in Netlify UI)
+# [build.environment]
+#   NODE_VERSION = "18"
+
+# Plugin Configuration (optional - for additional Netlify features)
+# [[plugins]]
+#   package = "@netlify/plugin-sitemap"
+#   [plugins.inputs]
+#     buildDir = "."

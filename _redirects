@@ -1,0 +1,39 @@
+# Netlify Redirects File for Bmore Rooted
+# https://docs.netlify.com/routing/redirects/
+
+# Redirect www to non-www (or vice versa)
+https://www.bmorerooted.com/* https://bmorerooted.com/:splat 301!
+
+# Redirect old URLs (if migrating from another site)
+# /old-page.html /new-page.html 301
+
+# Service URL aliases (alternative paths)
+/services/root-collar /services/root-collar-excavation.html 301
+/services/trenching /services/radial-trenching.html 301
+/services/aeration /services/soil-aeration.html 301
+/services/utilities /services/utility-location.html 301
+
+# Blog URL aliases
+/blog/root-collar /blog/tree-root-collar-excavation-signs.html 301
+/blog/construction /blog/protecting-trees-during-construction.html 301
+/blog/pneumatic /blog/pneumatic-vs-traditional-excavation.html 301
+
+# Contact page alias
+/contact /index.html#contact 200
+
+# Services page alias
+/services /index.html#services 200
+
+# Quote request alias
+/quote /index.html#contact 200
+/get-quote /index.html#contact 200
+
+# Trailing slash handling (force trailing slashes or remove them)
+# This example removes trailing slashes
+/*/  /:splat  301
+
+# 404 - Custom 404 page
+/* /404.html 404
+
+# Note: More specific rules should come before general rules
+# Rules are processed top to bottom, first match wins

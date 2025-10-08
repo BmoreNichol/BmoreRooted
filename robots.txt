@@ -1,0 +1,29 @@
+# Robots.txt for Bmore Rooted
+# https://bmorerooted.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap Location
+Sitemap: https://bmorerooted.com/sitemap.xml
+
+# Crawl-delay (optional - use if needed to reduce server load)
+# Crawl-delay: 10
+
+# Specific bot instructions (examples)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block bad bots (optional)
+# User-agent: BadBot
+# Disallow: /
