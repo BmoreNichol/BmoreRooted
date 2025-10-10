@@ -15,19 +15,3 @@ Thumbs.db
 # Environment variables
 .env
 .env.local
-
-# Claude settings
-.claude/
-
-# Other projects
-BmoreRooted/
-n8n-business-intelligence-automation/
-
-# Analysis files
-*.csv
-*.json
-*.py
-*.bat
-*.md
-!README.md
-!DEPLOYMENT.md
